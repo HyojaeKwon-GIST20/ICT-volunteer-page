@@ -1,11 +1,84 @@
-.container{
+.a {
+  text-decoration: none;
+}
+
+.container {
 
 }
-.top-banner{
+.row-container{
+  width: 1500px;
+  align-items: center;
+}
+.top-banner {
   background-color: skyblue;
-  border: 1px solid red ;
+  border: 1px solid red;
 
 }
-.container{
+
+.container {
   border: 1px solid blue;
+  position: relative;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid yellow;
+}
+
+.inner-container {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.title {
+  padding-top: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+}
+
+.title-deatil {
+  margin-bottom: 30px;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.nav-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.nav-tab-node {
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+  color: rgba(37,38,94,.7);
+  padding: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 32px;
+}
+.nav-tab-node-detaile::after{
+  content: '';
+  position: relative;
+  height: 4px;
+  border-radius: 10px 10px 0 0;
+  opacity: 1;
 }
