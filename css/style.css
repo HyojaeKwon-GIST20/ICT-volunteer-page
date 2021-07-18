@@ -179,6 +179,10 @@ li{
   color: rgba(37,38,94,.7);
   font-weight: 500;
 }
+.list ul li span:hover{
+  color: blue;
+  font-weight: 700;
+}
 .right-bar{
   flex: 1 1 auto;
   width: 1000px;
@@ -191,3 +195,61 @@ li{
   font-weight: 700;
   transition: color 0.5s ease-in-out;
 } */
+.introduction-container{
+  padding-bottom: 40px;
+}
+.footer{
+  /* background-color: rgb(47 65 134); */
+  background-color: #4b89dc;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.footer-contianer{
+  /* display: grid; */
+  place-items: center;
+  /* padding-top: 100px; */
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer-index-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-right: auto;
+  padding-left: auto; */
+  justify-content: center;
+}
+.footer-contents-container{
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.footer-contents{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#gist-news-logo{
+  width: 250px;
+}
+.footer-text{
+  margin: 0;
+  color: white;
+}
+.footer-title{
+  margin-bottom: 14px;
+  font-weight: 700;
+  display: block;
+}
+.footer-link{
+
+}
+.footer-link li span{
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  /* color: rgba(37,38,94,.7); */
+  font-weight: 500;
+  margin-bottom: 10px;
+}
