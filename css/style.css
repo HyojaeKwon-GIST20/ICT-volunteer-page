@@ -96,6 +96,10 @@
   border-radius: 10px 10px 0 0;
   opacity: 1;
 }
+.nav-tab-node-detail:hover{
+  color: blue;
+  font-weight: 700;
+}
 .program{
   font-size: 18px;
   line-height: 24px;
@@ -182,3 +186,8 @@ li{
 *{
   box-sizing: border-box;
 }
+/* .nav-hover{
+  color: blue;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out;
+} */
