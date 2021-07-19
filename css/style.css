@@ -186,6 +186,7 @@ li{
 .right-bar{
   flex: 1 1 auto;
   width: 1000px;
+  font-family: 'Raleway', sans-serif;x
 }
 *{
   box-sizing: border-box;
@@ -204,6 +205,7 @@ li{
   display: block;
   padding-top: 100px;
   padding-bottom: 50px;
+  margin-top: 50px;
 }
 .footer-contianer{
   /* display: grid; */
