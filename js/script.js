@@ -7,5 +7,13 @@ function WindowScrollTo(par){
 let loc_3 = document.querySelector('#sec_3').offsetTop;
 let go_3 = document.querySelector('#goto_3')
 
+let loc_1 = document.querySelector('#sec_1').offsetTop;
+let go_1 = document.querySelector('#goto_1')
+
+let loc_2 = document.querySelector('#sec_2').offsetTop;
+let go_2 = document.querySelector('#goto_2')
 //함수 실행
 go_3.addEventListener("click",function(){WindowScrollTo(loc_3)})
+go_2.addEventListener("click",function(){WindowScrollTo(loc_2)})
+go_1.addEventListener("click",function(){WindowScrollTo(loc_1)})
+
