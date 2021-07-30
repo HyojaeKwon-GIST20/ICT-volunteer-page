@@ -12,7 +12,7 @@
   margin-right: auto;
 }
 .top-banner-container {
-  background-color: #e5f1fb;
+  background-color: #FFe1e6;
   /* border: 1px solid red; */
   padding-bottom: 60px;
   font-family: 'Raleway', sans-serif;
@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: #FFebf0;
   border-radius: 5px;
   width: 150px;
   height: 150px;
@@ -97,7 +97,7 @@
   opacity: 1;
 }
 .nav-tab-node-detail:hover{
-  color: blue;
+  color: black;
   font-weight: 700;
 }
 .program{
@@ -180,7 +180,7 @@ li{
   font-weight: 500;
 }
 .list ul li span:hover{
-  color: blue;
+  color: black;
   font-weight: 700;
 }
 .right-bar{
@@ -201,7 +201,7 @@ li{
 }
 .footer{
   /* background-color: rgb(47 65 134); */
-  background-color: #4b89dc;
+  background-color: #FFebf0;
   display: block;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -237,7 +237,7 @@ li{
 }
 .footer-text{
   margin: 0;
-  color: white;
+  color: black;
 }
 .footer-title{
   margin-bottom: 14px;
