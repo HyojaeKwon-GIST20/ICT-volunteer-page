@@ -4,6 +4,7 @@
   margin-bottom: 80px;
   justify-content: center;
   background-color: #FFebf0;
+  font-family: 'Raleway', sans-serif;
 }
 .header-container{
   display: flex;
@@ -29,12 +30,16 @@
 }
 .content-outer{
   display: flex;
+  font-family: 'Raleway', sans-serif;
   justify-content: center;
 }
 .name-container{
   justify-content: left;
   display: flex;
   padding-bottom: 15px;
+}
+.body{
+  font-family: 'Raleway', sans-serif;
 }
 .name{
   font-size: 50px;
@@ -60,11 +65,13 @@
   font-weight: 700;
   width: 840px;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 .text-container{
   padding-left: 20px;
   padding-right: 20px;
   border: gray 0.7px solid;
+  font-family: 'Raleway', sans-serif;
 }
 .text{
   border-top: gray 0.8px solid;
