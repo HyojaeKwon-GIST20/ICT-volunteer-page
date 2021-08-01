@@ -183,10 +183,23 @@ li{
   color: black;
   font-weight: 700;
 }
+.list ul li a{
+  display: block;
+  padding: 8px 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(37,38,94,.7);
+  font-weight: 500;
+  text-decoration: none;
+}
+.list ul li a:hover{
+  color: black;
+  font-weight: 700;
+}
 .right-bar{
   flex: 1 1 auto;
   width: 1000px;
-  font-family: 'Raleway', sans-serif;x
+  font-family: 'Raleway', sans-serif;
 }
 *{
   box-sizing: border-box;
