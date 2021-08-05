@@ -14,4 +14,14 @@
   .body{
     white-space:normal;
   }
+  .inner-container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cut{
+    display: none;
+  }
+  p{
+    font-size: 15px;
+  }
 }
