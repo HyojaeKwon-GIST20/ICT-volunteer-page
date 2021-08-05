@@ -25,10 +25,13 @@
 }
 h1{
   font-size: 30px;
+  text-align: center;
 }
 .header-container{
   padding-top: 200px;
   padding-bottom: 40px;
+  align-items: center ;
+  text-align: center;
 }
 .input-container{
   display: flex;
