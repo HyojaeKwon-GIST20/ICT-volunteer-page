@@ -1,7 +1,7 @@
 .mag{
   margin-top: 600px;
 }
-@media(max-width:1400px){
+/* @media(max-width:1400px){
   .outer{
     display: none;
   }
@@ -91,7 +91,7 @@ a{
 }
 .media{
   display: none;
-}
+} */
 .outer{
   display: flex;
   width: 100%;
