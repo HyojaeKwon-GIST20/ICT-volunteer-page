@@ -21,7 +21,7 @@
 .container {
   /* border: 1px solid blue; */
   position: relative;
-  display: grid;
+  /* display: grid; */
   place-items: center;
 }
 
