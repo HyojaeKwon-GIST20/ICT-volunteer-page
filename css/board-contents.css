@@ -1,6 +1,7 @@
-.contents-container{
-  display: grid;
-  place-content: center;
+.container{
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
 }
 .contents{
   position:relative;
@@ -115,4 +116,82 @@ h1{
 .comment-footer em{
   color: #d31900;
   text-decoration: underline;
+}
+.write-wrapper{
+  position: relative;;
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border-bottom: 1px solid blue;
+  background-color: #fafafa;
+}
+.user-input-container input{
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.comment-input-conatiner input{
+  width: 780px;
+  margin: 5px 10px 5px 5px;
+  
+}
+.right-input{
+  margin-left: auto;
+}
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#comment-input{
+  height: 130px;
+}
+.button{
+  margin-right: 5px;
+}
+.input{
+  vertical-align: top;
+  padding: 2px 7px 0;
+  border: 1px solid #cecdce;
+  font-size: 12px;
+}
+.button-self{
+  width: 85px;
+  height: 31px;
+  line-height: 30px;
+  margin-left: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 5px 5px 3px;
+  border: none;
+}
+#button-regi{
+  background: #3b4890;
+  border-color: #29367c;
+  color: #fff;
+}
+#button-reco{
+  background: #626da6;
+  border-color: #3b4890;
+  color: #fff;
+}
+.button-container-wrapper{
+  padding-top: 5px;
+  margin-bottom: 130px;
+}
+#button-write{
+  background: #3b4890;
+  border-color: #29367c;
+  color: #fff;
+}
+.gray-btn{
+  background-color: darkgray;
+  color: white;
+  border: 1px solid black ;
 }
