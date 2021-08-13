@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="https://www.ict-volunteer.site/css/board-contents.css">
+  <link rel="stylesheet" href="http://www.ict-volunteer.site/css/board-contents.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
@@ -63,7 +63,7 @@
             <div class="comment-container">
               <ul class="comment-box">
                 <li>
-                  <div class="comment">
+                  <div class="comment" id=commentId1>
                     <div class="left-info">
                       <span class="writer">
                         최은기
@@ -72,10 +72,24 @@
                         여기는 개발 오아시스
                       </span>
                     </div>
-                    <div class="right-info">
-                      <span class="comment-time">
-                        2020: 550 : 2103
-                      </span>
+                    <div class="right-info-outer">
+                      <div class="right-info">
+                        <div>
+                          <span class="comment-time">
+                            2020: 550 : 2103
+                          </span>
+                        </div>
+                        <div class="delete-container">
+                          <!-- <span id="delete1" onclick="on()">delete</span> -->
+                        </div>
+                      </div>
+                      <div class="delete-bar-container">
+                        <div class="delete-bar">
+                          <input type="text" id="password-confirm" placeholder="password">
+                          <button class="small-button">Del</button>
+                          <button class="small-button" onclick="off()">X</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -89,10 +103,24 @@
                         여기는 개발 오아시스
                       </span>
                     </div>
-                    <div class="right-info">
-                      <span class="comment-time">
-                        2020: 550 : 2103
-                      </span>
+                    <div class="right-info-outer">
+                      <div class="right-info">
+                        <div>
+                          <span class="comment-time">
+                            2020: 550 : 2103
+                          </span>
+                        </div>
+                        <div class="delete-container">
+                          <!-- <span id="delete1" onclick="on()">delete</span> -->
+                        </div>
+                      </div>
+                      <div class="delete-bar-container">
+                        <div class="delete-bar">
+                          <input type="text" id="password-confirm" placeholder="password">
+                          <button class="small-button">Del</button>
+                          <button class="small-button" onclick="off()">X</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -143,5 +171,15 @@
       </div>
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery-latest.js">
+    
+    
+    function on(){
+      var key = document.querySelector('#delete1');
+      console.log(key)
+      var par_key = key.parentNode.parentNode;
+      console.log(par_key)
+    }
+  </script>
 </body>
 </html>
