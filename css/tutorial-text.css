@@ -45,6 +45,9 @@
   font-size: 50px;
   font-weight: 700;
 }
+body{
+  margin: 0 0;
+}
 .add-container{
   display: flex;
   padding-top: 20px;

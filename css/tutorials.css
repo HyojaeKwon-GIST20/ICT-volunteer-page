@@ -24,6 +24,9 @@
   /* display: grid; */
   place-items: center;
 }
+body{
+  margin: 0 0;
+}
 
 .row-container {
   display: flex;

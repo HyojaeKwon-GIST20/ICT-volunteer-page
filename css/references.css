@@ -26,3 +26,6 @@
 .program{
   word-break: break-all;
 }
+body{
+  margin: 0 0;
+}
